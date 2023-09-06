@@ -21,7 +21,7 @@ int main(){
                 char_array[i+1]='B';
             }
         }else if(char_array[i]=='G' && i==0){
-            
+            //Como es posible esto
         }
     }
     t--;
