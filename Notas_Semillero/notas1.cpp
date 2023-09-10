@@ -5,7 +5,6 @@ edad=15;
 //Declaración de tipo
 int arr_enteros[n] //Dice la dimesion*/
 
-
 //Existe valores BAsurita
 #include <bits/stdc++.h>
 using namespace std;
@@ -22,5 +21,11 @@ int main(){
     for(int i=0; i<10; i++){
         cout<<i<<", "<<arr_bool[i]<<", "<<&arr_bool<<endl;
     }
+
+    //Arreglo dinamico de enteros
+    int *arr_din; // inicializacion de puntero
+    arr_din = new int[5]; //Dimensionamiento
+    //Asignacion de valores de al arreglo
+    delete [] arr_din; //Liberacion de memoria
     return 0;
 }
