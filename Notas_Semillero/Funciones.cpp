@@ -18,4 +18,11 @@ int sol(int arr){
         if(arr[i]%2==0) cont++;
     }
     return cont;
+
+    /*
+    casos de recursividad:
+    - suma recursiva
+    - producto recursiva
+    - fibonacci
+    */
 }
